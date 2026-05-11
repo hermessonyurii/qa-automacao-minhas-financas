@@ -1,0 +1,15 @@
+{
+  "name": "minhas-financas-e2e",
+  "version": "1.0.0",
+  "description": "Testes E2E com Playwright para o sistema Minhas Finanças",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "typescript": "latest"
+  }
+}
